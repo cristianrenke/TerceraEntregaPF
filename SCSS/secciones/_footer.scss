@@ -1,0 +1,47 @@
+
+.footer{
+    background-color: #1f1f1fb9;
+            
+   ul{
+
+    list-style: none;
+    width: 450px;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+      }
+
+ li{
+    padding: 20px;
+}
+
+ a {
+     color: white;
+
+ &:hover{
+
+    color:black ;
+    font-weight: bold;   
+}
+}
+h4{
+    margin:0;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+  
+  .color-boton{
+
+      background-color: #3f3c3c;
+ }
+    
+
+    @media (max-width: 740px) {
+      .header{
+          flex-direction: column;
+
+   }
+}
+}
+  

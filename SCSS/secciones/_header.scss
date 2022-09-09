@@ -1,0 +1,44 @@
+
+.header{
+    background-color: #494848b9;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    
+    
+    img{
+    padding: 20px;
+    }
+
+    ul{
+    
+    list-style: none;
+   
+    
+    }
+    li{
+    width: 300;
+    padding: 15px;
+    display: flex;
+    
+    }
+    a {
+    color: white;
+       
+     &:hover
+    {
+    color:black ;
+    font-weight: bold;
+    }
+  }
+  .color-boton{
+
+      background-color: #3f3c3c;
+ }
+}
+@media (max-width: 740px) {
+  .header{
+      flex-direction: column;
+  }
+
+}
