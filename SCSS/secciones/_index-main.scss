@@ -22,8 +22,8 @@ background-color:  #808080b9;
 padding: 30px;
 
 h3{
-    @include estiloTexto (50px);
-
+    @include estiloTexto (100px);
+    
     }
 
 form{
@@ -46,7 +46,7 @@ padding: 50px;
 
     h3 {
      
-        @include estiloTexto (50px);
+        @include estiloTexto (800px);
         
         }
         
