@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     }
-    
+    @import "./variables/extend";
     @import "./secciones/header";
     @import "./secciones/index-main";
     @import "./secciones/footer"

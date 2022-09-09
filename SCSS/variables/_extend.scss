@@ -1,0 +1,18 @@
+
+%estilo-productos{
+
+    padding: 50px;
+    min-height: 60vh;
+    list-style: none;
+    }
+
+    
+@mixin estiloTexto ($bolt) {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 800px;
+    font-style: italic;
+    font-weight: $bolt;
+    
+    }
+     
