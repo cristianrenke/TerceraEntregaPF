@@ -52,12 +52,13 @@
     font-size: 30px;
     font-weight: 800px;
     font-style: italic;
-    font-weight: 100px; }
+    font-weight: 100px;
+    max-width: 900px; }
   .main-contacto form {
     padding: 50px; }
 
 .main-productos {
-  max-width: 1200px;
+  max-width: 1000px;
   background-color: white;
   padding: 50px;
   min-height: 60vh;
@@ -70,7 +71,11 @@
     font-size: 30px;
     font-weight: 800px;
     font-style: italic;
-    font-weight: 800px; }
+    font-weight: 800px;
+    max-width: 900px; }
+
+.main-galeria {
+  margin: 30px; }
 
 .carou {
   padding: 20px;
@@ -103,7 +108,7 @@
   grid-area: 2 / 3 / 3 / 4; }
 
 .grid-container img {
-  width: 250px; }
+  width: 150px; }
 
 .grid-container {
   grid-template-columns: repeat(2, 1fr);
