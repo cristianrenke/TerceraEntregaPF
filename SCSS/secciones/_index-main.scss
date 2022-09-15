@@ -1,7 +1,7 @@
 
 .main-index{
     min-height: 60vh;
-    background-color: white;
+    background-color: rgba(145, 143, 143, 0.747);
            
   form{
 
@@ -32,8 +32,8 @@ padding: 50px;
 }
 }
 .main-productos{
- max-width: 1000px;
-background-color:white;
+ max-width: 1300px;
+background-color:rgba(145, 143, 143, 0.747);
 padding: 50px;
  min-height: 60vh;
  list-style: none;
@@ -52,8 +52,11 @@ padding: 50px;
         
    }
    .main-galeria{
+    background-color:rgba(145, 143, 143, 0.747);
+  h1{
+padding: 30px;
 
-    margin:30px;
+  }
    }
 
    .carou{
